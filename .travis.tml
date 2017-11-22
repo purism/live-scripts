@@ -1,0 +1,8 @@
+language: cpp
+os: linux
+env:
+     - MATRIX_EVAL="CC=gcc-4.9 && CXX=g++-4.9"
+compiler:
+     - gcc
+
+script: . auto/config && . auto/clean && . auto/build
