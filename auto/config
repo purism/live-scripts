@@ -1,4 +1,7 @@
 #!/bin/bash -e
+#
+# Shell script (for now) used to build the system.
+#
 
 # some fancy colors
 if [ $(tty -s) ]; then
